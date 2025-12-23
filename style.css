@@ -7,38 +7,38 @@
 main {
   height: 3000px;
   /* background-color: darkseagreen; */
+}
 
-  article {
-    width: 400px;
+article {
+  width: 400px;
+}
+
+.text {
+  height: 400px;
+  width: 300px;
+  display: flex;
+
+  h2 {
+    border: 1px solid red;
   }
 
-  .text {
-    height: 400px;
-    width: 300px;
-    display: flex;
-
-    h2 {
-      border: 1px solid red;
-    }
-
-    h2 {
-      position: sticky;
-      top: 10px;
-      /* bottom: 40px; */
-    }
+  h2 {
+    position: sticky;
+    top: 10px;
+    /* bottom: 40px; */
   }
+}
 
-  /* .fix {
-    width: 50%;
-    background-color: azure;
-    height: 50px;
-    position: fixed;
-  } */
+/* .fix {
+  width: 50%;
+  background-color: azure;
+  height: 50px;
+  position: fixed;
+}
 
-  section {
-    height: 400px;
-    background-color: beige;
-  }
+section {
+  height: 400px;
+  background-color: beige;
 }
 
 .parent {
@@ -54,4 +54,4 @@ main {
   bottom: 20px;
   top: 0;
   z-index: 2;
-}
+} */
